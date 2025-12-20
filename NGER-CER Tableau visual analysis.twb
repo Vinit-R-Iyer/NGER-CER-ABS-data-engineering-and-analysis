@@ -1,0 +1,2424 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.24.0705.0356                               -->
+<workbook original-version='18.1' source-build='2022.3.19 (20223.24.0705.0356)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1+ (Multiple Connections)' inline='true' name='federated.0f2d9b81cegfsh1d47lb91nq3bxk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='NGER Data' name='excel-direct.0gjqmtj1mbwm590zyigyd040i1ml'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ivini/OneDrive - Teles Technological Services/Desktop/All/Project/COMP5339/NGER Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='CER Data 1' name='excel-direct.17brgzq0sv15b010w5e761gyp7mp'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/ivini/OneDrive - Teles Technological Services/Desktop/All/Project/COMP5339/CER Data 1.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='CER Data 2' name='excel-direct.1sbhc4u0xxr9du10gvjm10xxeq2z'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/ivini/OneDrive - Teles Technological Services/Desktop/All/Project/COMP5339/CER Data 2.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='ABS_State_Data' name='excel-direct.09z2j3j0268qpb1g5u4xv0rtpz4y'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ivini/OneDrive - Teles Technological Services/Desktop/All/Project/COMP5339/ABS_State_Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.09z2j3j0268qpb1g5u4xv0rtpz4y' name='Sheet13' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:R81:no:A1:R81:0' header='yes' outcome='6'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='integer' name='Building approvals - year ended 30 June - Private sector houses (no.)' ordinal='2' />
+            <column datatype='integer' name='Building approvals - year ended 30 June - Total private sector dwelling units (no.)' ordinal='3' />
+            <column datatype='integer' name='Building approvals - year ended 30 June - Total dwelling units (no.)' ordinal='4' />
+            <column datatype='integer' name='Building approvals - year ended 30 June - Value of private sector houses ($m)' ordinal='5' />
+            <column datatype='integer' name='Building approvals - year ended 30 June - Total value of private sector dwelling units ($m)' ordinal='6' />
+            <column datatype='integer' name='Building approvals - year ended 30 June - Value of residential building ($m)' ordinal='7' />
+            <column datatype='integer' name='Building approvals - year ended 30 June - Value of non-residential building ($m)' ordinal='8' />
+            <column datatype='integer' name='Building approvals - year ended 30 June - Value of total building ($m)' ordinal='9' />
+            <column datatype='integer' name='Residential property transfers - year ended 30 June - Number of established house transfers (no.)' ordinal='10' />
+            <column datatype='integer' name='Residential property transfers - year ended 30 June - Median price of established house transfers ($)' ordinal='11' />
+            <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Houses - additions (no.)' ordinal='12' />
+            <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Houses - total (no.)' ordinal='13' />
+            <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Townhouses - total (no.)' ordinal='14' />
+            <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Apartments - total (no.)' ordinal='15' />
+            <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Total dwelling additions (no.)' ordinal='16' />
+            <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Total dwellings (no.)' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='excel-direct.17brgzq0sv15b010w5e761gyp7mp' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:I355:no:A1:I355:1' lost='0' outcome='1' processed='1416'>
+              <column datatype='string' name='Accreditation code' ordinal='0' />
+              <column datatype='string' name='Power station name' ordinal='1' />
+              <column datatype='string' name='State' ordinal='2' />
+              <column datatype='integer' name='Postcode' ordinal='3' />
+              <column datatype='real' name='Mw Capacity' ordinal='4' />
+              <column datatype='string' name='Fuel Source' ordinal='5' />
+              <column datatype='date' name='Accreditation start date' ordinal='6' />
+              <column datatype='date' name='Approval date' ordinal='7' />
+              <column datatype='string' name='facility_name_norm' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.0gjqmtj1mbwm590zyigyd040i1ml' name='Sheet12' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:Q5943:no:A1:Q5943:0' header='yes' outcome='6'>
+              <column datatype='string' name='source_dataset_id' ordinal='0' />
+              <column datatype='string' name='reporting_entity' ordinal='1' />
+              <column datatype='string' name='facility_name' ordinal='2' />
+              <column datatype='string' name='type' ordinal='3' />
+              <column datatype='string' name='State' ordinal='4' />
+              <column datatype='integer' name='electricity_production_gj' ordinal='5' />
+              <column datatype='integer' name='electricity_production_mwh' ordinal='6' />
+              <column datatype='integer' name='production_mwh_std' ordinal='7' />
+              <column datatype='integer' name='scope1_tco2e' ordinal='8' />
+              <column datatype='integer' name='scope2_tco2e' ordinal='9' />
+              <column datatype='integer' name='total_emissions_tco2e' ordinal='10' />
+              <column datatype='real' name='emission_intensity_t_per_mwh' ordinal='11' />
+              <column datatype='string' name='grid_connected' ordinal='12' />
+              <column datatype='string' name='grid' ordinal='13' />
+              <column datatype='string' name='primary_fuel' ordinal='14' />
+              <column datatype='string' name='important_notes' ordinal='15' />
+              <column datatype='string' name='facility_name_norm' ordinal='16' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.09z2j3j0268qpb1g5u4xv0rtpz4y' name='Sheet13' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:R81:no:A1:R81:0' header='yes' outcome='6'>
+              <column datatype='string' name='State' ordinal='0' />
+              <column datatype='integer' name='Year' ordinal='1' />
+              <column datatype='integer' name='Building approvals - year ended 30 June - Private sector houses (no.)' ordinal='2' />
+              <column datatype='integer' name='Building approvals - year ended 30 June - Total private sector dwelling units (no.)' ordinal='3' />
+              <column datatype='integer' name='Building approvals - year ended 30 June - Total dwelling units (no.)' ordinal='4' />
+              <column datatype='integer' name='Building approvals - year ended 30 June - Value of private sector houses ($m)' ordinal='5' />
+              <column datatype='integer' name='Building approvals - year ended 30 June - Total value of private sector dwelling units ($m)' ordinal='6' />
+              <column datatype='integer' name='Building approvals - year ended 30 June - Value of residential building ($m)' ordinal='7' />
+              <column datatype='integer' name='Building approvals - year ended 30 June - Value of non-residential building ($m)' ordinal='8' />
+              <column datatype='integer' name='Building approvals - year ended 30 June - Value of total building ($m)' ordinal='9' />
+              <column datatype='integer' name='Residential property transfers - year ended 30 June - Number of established house transfers (no.)' ordinal='10' />
+              <column datatype='integer' name='Residential property transfers - year ended 30 June - Median price of established house transfers ($)' ordinal='11' />
+              <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Houses - additions (no.)' ordinal='12' />
+              <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Houses - total (no.)' ordinal='13' />
+              <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Townhouses - total (no.)' ordinal='14' />
+              <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Apartments - total (no.)' ordinal='15' />
+              <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Total dwelling additions (no.)' ordinal='16' />
+              <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Total dwellings (no.)' ordinal='17' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1sbhc4u0xxr9du10gvjm10xxeq2z' name='Sheet11' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:G98:no:A1:G98:1' lost='0' outcome='1' processed='130'>
+              <column datatype='string' name='Project Name' ordinal='0' />
+              <column datatype='string' name='State' ordinal='1' />
+              <column datatype='real' name='Mw Capacity' ordinal='2' />
+              <column datatype='string' name='Fuel Source' ordinal='3' />
+              <column datatype='date' name='Committed Date' ordinal='4' />
+              <column datatype='string' name='status' ordinal='5' />
+              <column datatype='string' name='facility_name_norm' ordinal='6' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Accreditation code]' value='[Sheet1].[Accreditation code]' />
+          <map key='[Accreditation start date]' value='[Sheet1].[Accreditation start date]' />
+          <map key='[Approval date]' value='[Sheet1].[Approval date]' />
+          <map key='[Building approvals - year ended 30 June - Private sector houses (no.)]' value='[Sheet13].[Building approvals - year ended 30 June - Private sector houses (no.)]' />
+          <map key='[Building approvals - year ended 30 June - Total dwelling units (no.)]' value='[Sheet13].[Building approvals - year ended 30 June - Total dwelling units (no.)]' />
+          <map key='[Building approvals - year ended 30 June - Total private sector dwelling units (no.)]' value='[Sheet13].[Building approvals - year ended 30 June - Total private sector dwelling units (no.)]' />
+          <map key='[Building approvals - year ended 30 June - Total value of private sector dwelling units ($m)]' value='[Sheet13].[Building approvals - year ended 30 June - Total value of private sector dwelling units ($m)]' />
+          <map key='[Building approvals - year ended 30 June - Value of non-residential building ($m)]' value='[Sheet13].[Building approvals - year ended 30 June - Value of non-residential building ($m)]' />
+          <map key='[Building approvals - year ended 30 June - Value of private sector houses ($m)]' value='[Sheet13].[Building approvals - year ended 30 June - Value of private sector houses ($m)]' />
+          <map key='[Building approvals - year ended 30 June - Value of residential building ($m)]' value='[Sheet13].[Building approvals - year ended 30 June - Value of residential building ($m)]' />
+          <map key='[Building approvals - year ended 30 June - Value of total building ($m)]' value='[Sheet13].[Building approvals - year ended 30 June - Value of total building ($m)]' />
+          <map key='[Committed Date]' value='[Sheet11].[Committed Date]' />
+          <map key='[Estimated dwelling stock - as at June quarter - Apartments - total (no.)]' value='[Sheet13].[Estimated dwelling stock - as at June quarter - Apartments - total (no.)]' />
+          <map key='[Estimated dwelling stock - as at June quarter - Houses - additions (no.)]' value='[Sheet13].[Estimated dwelling stock - as at June quarter - Houses - additions (no.)]' />
+          <map key='[Estimated dwelling stock - as at June quarter - Houses - total (no.)]' value='[Sheet13].[Estimated dwelling stock - as at June quarter - Houses - total (no.)]' />
+          <map key='[Estimated dwelling stock - as at June quarter - Total dwelling additions (no.)]' value='[Sheet13].[Estimated dwelling stock - as at June quarter - Total dwelling additions (no.)]' />
+          <map key='[Estimated dwelling stock - as at June quarter - Total dwellings (no.)]' value='[Sheet13].[Estimated dwelling stock - as at June quarter - Total dwellings (no.)]' />
+          <map key='[Estimated dwelling stock - as at June quarter - Townhouses - total (no.)]' value='[Sheet13].[Estimated dwelling stock - as at June quarter - Townhouses - total (no.)]' />
+          <map key='[Fuel Source (Sheet11)]' value='[Sheet11].[Fuel Source]' />
+          <map key='[Fuel Source]' value='[Sheet1].[Fuel Source]' />
+          <map key='[Mw Capacity (Sheet11)]' value='[Sheet11].[Mw Capacity]' />
+          <map key='[Mw Capacity]' value='[Sheet1].[Mw Capacity]' />
+          <map key='[Postcode]' value='[Sheet1].[Postcode]' />
+          <map key='[Power station name]' value='[Sheet1].[Power station name]' />
+          <map key='[Project Name]' value='[Sheet11].[Project Name]' />
+          <map key='[Residential property transfers - year ended 30 June - Median price of established house transfers ($)]' value='[Sheet13].[Residential property transfers - year ended 30 June - Median price of established house transfers ($)]' />
+          <map key='[Residential property transfers - year ended 30 June - Number of established house transfers (no.)]' value='[Sheet13].[Residential property transfers - year ended 30 June - Number of established house transfers (no.)]' />
+          <map key='[State (Sheet11)]' value='[Sheet11].[State]' />
+          <map key='[State (Sheet12)]' value='[Sheet12].[State]' />
+          <map key='[State (Sheet13)]' value='[Sheet13].[State]' />
+          <map key='[State]' value='[Sheet1].[State]' />
+          <map key='[Year]' value='[Sheet13].[Year]' />
+          <map key='[electricity_production_gj]' value='[Sheet12].[electricity_production_gj]' />
+          <map key='[electricity_production_mwh]' value='[Sheet12].[electricity_production_mwh]' />
+          <map key='[emission_intensity_t_per_mwh]' value='[Sheet12].[emission_intensity_t_per_mwh]' />
+          <map key='[facility_name]' value='[Sheet12].[facility_name]' />
+          <map key='[facility_name_norm (Sheet11)]' value='[Sheet11].[facility_name_norm]' />
+          <map key='[facility_name_norm (Sheet12)]' value='[Sheet12].[facility_name_norm]' />
+          <map key='[facility_name_norm]' value='[Sheet1].[facility_name_norm]' />
+          <map key='[grid]' value='[Sheet12].[grid]' />
+          <map key='[grid_connected]' value='[Sheet12].[grid_connected]' />
+          <map key='[important_notes]' value='[Sheet12].[important_notes]' />
+          <map key='[primary_fuel]' value='[Sheet12].[primary_fuel]' />
+          <map key='[production_mwh_std]' value='[Sheet12].[production_mwh_std]' />
+          <map key='[reporting_entity]' value='[Sheet12].[reporting_entity]' />
+          <map key='[scope1_tco2e]' value='[Sheet12].[scope1_tco2e]' />
+          <map key='[scope2_tco2e]' value='[Sheet12].[scope2_tco2e]' />
+          <map key='[source_dataset_id]' value='[Sheet12].[source_dataset_id]' />
+          <map key='[status]' value='[Sheet11].[status]' />
+          <map key='[total_emissions_tco2e]' value='[Sheet12].[total_emissions_tco2e]' />
+          <map key='[type]' value='[Sheet12].[type]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Accreditation code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Accreditation code]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Accreditation code</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Power station name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Power station name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Power station name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Postcode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Postcode]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Postcode</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mw Capacity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mw Capacity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Mw Capacity</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fuel Source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Fuel Source]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fuel Source</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accreditation start date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Accreditation start date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Accreditation start date</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Approval date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Approval date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Approval date</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>facility_name_norm</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[facility_name_norm]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>facility_name_norm</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I355:no:A1:I355:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>1416</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source_dataset_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[source_dataset_id]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>source_dataset_id</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reporting_entity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[reporting_entity]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>reporting_entity</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>facility_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[facility_name]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>facility_name</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State (Sheet12)]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>electricity_production_gj</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[electricity_production_gj]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>electricity_production_gj</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>electricity_production_mwh</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[electricity_production_mwh]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>electricity_production_mwh</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>production_mwh_std</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[production_mwh_std]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>production_mwh_std</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scope1_tco2e</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[scope1_tco2e]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>scope1_tco2e</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scope2_tco2e</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[scope2_tco2e]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>scope2_tco2e</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_emissions_tco2e</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_emissions_tco2e]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>total_emissions_tco2e</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>emission_intensity_t_per_mwh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[emission_intensity_t_per_mwh]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>emission_intensity_t_per_mwh</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>grid_connected</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[grid_connected]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>grid_connected</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>grid</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[grid]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>grid</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primary_fuel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[primary_fuel]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>primary_fuel</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>important_notes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[important_notes]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>important_notes</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>facility_name_norm</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[facility_name_norm (Sheet12)]</local-name>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias>facility_name_norm</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet12]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Q5943:no:A1:Q5943:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State (Sheet13)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Building approvals - year ended 30 June - Private sector houses (no.)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Building approvals - year ended 30 June - Private sector houses (no.)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Building approvals - year ended 30 June - Private sector houses (no.)</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Building approvals - year ended 30 June - Total private sector dwelling units (no.)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Building approvals - year ended 30 June - Total private sector dwelling units (no.)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Building approvals - year ended 30 June - Total private sector dwelling units (no.)</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Building approvals - year ended 30 June - Total dwelling units (no.)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Building approvals - year ended 30 June - Total dwelling units (no.)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Building approvals - year ended 30 June - Total dwelling units (no.)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Building approvals - year ended 30 June - Value of private sector houses ($m)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Building approvals - year ended 30 June - Value of private sector houses ($m)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Building approvals - year ended 30 June - Value of private sector houses ($m)</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Building approvals - year ended 30 June - Total value of private sector dwelling units ($m)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Building approvals - year ended 30 June - Total value of private sector dwelling units ($m)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Building approvals - year ended 30 June - Total value of private sector dwelling units ($m)</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Building approvals - year ended 30 June - Value of residential building ($m)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Building approvals - year ended 30 June - Value of residential building ($m)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Building approvals - year ended 30 June - Value of residential building ($m)</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Building approvals - year ended 30 June - Value of non-residential building ($m)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Building approvals - year ended 30 June - Value of non-residential building ($m)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Building approvals - year ended 30 June - Value of non-residential building ($m)</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Building approvals - year ended 30 June - Value of total building ($m)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Building approvals - year ended 30 June - Value of total building ($m)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Building approvals - year ended 30 June - Value of total building ($m)</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Residential property transfers - year ended 30 June - Number of established house transfers (no.)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Residential property transfers - year ended 30 June - Number of established house transfers (no.)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Residential property transfers - year ended 30 June - Number of established house transfers (no.)</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Residential property transfers - year ended 30 June - Median price of established house transfers ($)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Residential property transfers - year ended 30 June - Median price of established house transfers ($)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Residential property transfers - year ended 30 June - Median price of established house transfers ($)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estimated dwelling stock - as at June quarter - Houses - additions (no.)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Estimated dwelling stock - as at June quarter - Houses - additions (no.)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Estimated dwelling stock - as at June quarter - Houses - additions (no.)</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estimated dwelling stock - as at June quarter - Houses - total (no.)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Estimated dwelling stock - as at June quarter - Houses - total (no.)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Estimated dwelling stock - as at June quarter - Houses - total (no.)</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estimated dwelling stock - as at June quarter - Townhouses - total (no.)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Estimated dwelling stock - as at June quarter - Townhouses - total (no.)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Estimated dwelling stock - as at June quarter - Townhouses - total (no.)</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estimated dwelling stock - as at June quarter - Apartments - total (no.)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Estimated dwelling stock - as at June quarter - Apartments - total (no.)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Estimated dwelling stock - as at June quarter - Apartments - total (no.)</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estimated dwelling stock - as at June quarter - Total dwelling additions (no.)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Estimated dwelling stock - as at June quarter - Total dwelling additions (no.)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Estimated dwelling stock - as at June quarter - Total dwelling additions (no.)</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estimated dwelling stock - as at June quarter - Total dwellings (no.)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Estimated dwelling stock - as at June quarter - Total dwellings (no.)]</local-name>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias>Estimated dwelling stock - as at June quarter - Total dwellings (no.)</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet13]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R81:no:A1:R81:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Project Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Project Name]</local-name>
+            <parent-name>[Sheet11]</parent-name>
+            <remote-alias>Project Name</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State (Sheet11)]</local-name>
+            <parent-name>[Sheet11]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mw Capacity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mw Capacity (Sheet11)]</local-name>
+            <parent-name>[Sheet11]</parent-name>
+            <remote-alias>Mw Capacity</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fuel Source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Fuel Source (Sheet11)]</local-name>
+            <parent-name>[Sheet11]</parent-name>
+            <remote-alias>Fuel Source</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Committed Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Committed Date]</local-name>
+            <parent-name>[Sheet11]</parent-name>
+            <remote-alias>Committed Date</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[status]</local-name>
+            <parent-name>[Sheet11]</parent-name>
+            <remote-alias>status</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>facility_name_norm</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[facility_name_norm (Sheet11)]</local-name>
+            <parent-name>[Sheet11]</parent-name>
+            <remote-alias>facility_name_norm</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RAU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet11]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G98:no:A1:G98:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>130</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Financial Year' datatype='string' datatype-customized='true' name='[Calculation_1935703431665868801]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='CASE [source_dataset_id]&#13;&#10;    WHEN &quot;ID0074&quot; THEN &quot;2013-2014&quot;&#13;&#10;    WHEN &quot;ID0075&quot; THEN &quot;2014-2015&quot;&#13;&#10;    WHEN &quot;ID0076&quot; THEN &quot;2015-2016&quot;&#13;&#10;    WHEN &quot;ID0077&quot; THEN &quot;2016-2017&quot;&#13;&#10;    WHEN &quot;ID0078&quot; THEN &quot;2017-2018&quot;&#13;&#10;    WHEN &quot;ID0079&quot; THEN &quot;2018-2019&quot;&#13;&#10;    WHEN &quot;ID0080&quot; THEN &quot;2019-2020&quot;&#13;&#10;    WHEN &quot;ID0081&quot; THEN &quot;2020-2021&quot;&#13;&#10;    WHEN &quot;ID0082&quot; THEN &quot;2021-2022&quot;&#13;&#10;    WHEN &quot;ID0083&quot; THEN &quot;2022-2023&quot;&#13;&#10;    WHEN &quot;ID0243&quot; THEN &quot;2023-2024&quot;&#13;&#10;    ELSE &quot;Unknown&quot;&#13;&#10;END' />
+      </column>
+      <column caption='FY Start' datatype='date' datatype-customized='true' name='[Calculation_1935703431670067202]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;yyyy&quot;, LEFT([Calculation_1935703431665868801],4) )) ' />
+      </column>
+      <column aggregation='Sum' datatype='integer' default-format='*0000' name='[Postcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column datatype='string' name='[State (Sheet11)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[State (Sheet12)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[State (Sheet13)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='ABS_State_Data' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_194136B359B748E78855B0DB33C7E815]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='NGER_Data' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_BA033FA9DB01478FAFAD38883AE84ACE]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='CER_Data_2' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_E24CBB89246B4CC282831869B658D0C2]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='CER_Data_1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_F426F648596A46E6B8CCE6F7BB27DBD6]' role='measure' type='quantitative' />
+      <column caption='Electricity Production Gj' datatype='integer' name='[electricity_production_gj]' role='measure' type='quantitative' />
+      <column caption='Electricity Production Mwh' datatype='integer' name='[electricity_production_mwh]' role='measure' type='quantitative' />
+      <column caption='Emission Intensity T Per Mwh' datatype='real' name='[emission_intensity_t_per_mwh]' role='measure' type='quantitative' />
+      <column caption='Facility Name' datatype='string' name='[facility_name]' role='dimension' type='nominal' />
+      <column caption='facility name norm (Sheet11)' datatype='string' name='[facility_name_norm (Sheet11)]' role='dimension' type='nominal' />
+      <column caption='facility name norm (Sheet12)' datatype='string' name='[facility_name_norm (Sheet12)]' role='dimension' type='nominal' />
+      <column caption='Facility Name Norm' datatype='string' name='[facility_name_norm]' role='dimension' type='nominal' />
+      <column caption='Grid' datatype='string' name='[grid]' role='dimension' type='nominal' />
+      <column caption='Grid Connected' datatype='string' name='[grid_connected]' role='dimension' type='nominal' />
+      <column caption='Important Notes' datatype='string' name='[important_notes]' role='dimension' type='nominal' />
+      <column caption='Primary Fuel' datatype='string' name='[primary_fuel]' role='dimension' type='nominal' />
+      <column caption='Production Mwh Std' datatype='integer' name='[production_mwh_std]' role='measure' type='quantitative' />
+      <column caption='Reporting Entity' datatype='string' name='[reporting_entity]' role='dimension' type='nominal' />
+      <column caption='Scope1 Tco2E' datatype='integer' name='[scope1_tco2e]' role='measure' type='quantitative' />
+      <column caption='Scope2 Tco2E' datatype='integer' name='[scope2_tco2e]' role='measure' type='quantitative' />
+      <column caption='Source Dataset Id' datatype='string' name='[source_dataset_id]' role='dimension' type='nominal' />
+      <column caption='Status' datatype='string' name='[status]' role='dimension' type='nominal' />
+      <column caption='Total Emissions Tco2E' datatype='integer' name='[total_emissions_tco2e]' role='measure' type='quantitative' />
+      <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+      <column-instance column='[emission_intensity_t_per_mwh]' derivation='Avg' name='[avg:emission_intensity_t_per_mwh:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[State (Sheet12)]' derivation='None' name='[none:State (Sheet12):nk]' pivot='key' type='nominal' />
+      <column-instance column='[primary_fuel]' derivation='None' name='[none:primary_fuel:nk]' pivot='key' type='nominal' />
+      <column-instance column='[electricity_production_mwh]' derivation='Sum' name='[sum:electricity_production_mwh:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[emission_intensity_t_per_mwh]' derivation='Sum' name='[sum:emission_intensity_t_per_mwh:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[total_emissions_tco2e]' derivation='Sum' name='[sum:total_emissions_tco2e:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Primary Fuel)' hidden='true' name='[Action (Primary Fuel)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[primary_fuel]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:electricity_production_mwh:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[avg:emission_intensity_t_per_mwh:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:emission_intensity_t_per_mwh:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:total_emissions_tco2e:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:State (Sheet12):nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SA&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;QLD&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;ACT&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;VIC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NT&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;TAS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;NSW&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;WA&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:primary_fuel:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Battery&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Wind/Diesel&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gas/Diesel&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Gas&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kerosene&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Biogas&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Wind&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Waste Coal Mine Gas&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bagasse&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Wood&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Liquid Fuel&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Black Coal&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Macadamia Nut Shells&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sludge Biogas&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Diesel&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Landfill Gas&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Coal Seam Methane&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Brown Coal&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Multiple sources&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hydro&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Solar&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Biofuel&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Australia&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='source_dataset_id' />
+        <field-sort-custom-order field='Calculation_1935703431665868801' />
+        <field-sort-custom-order field='Calculation_1935703431670067202' />
+        <field-sort-custom-order field='reporting_entity' />
+        <field-sort-custom-order field='facility_name' />
+        <field-sort-custom-order field='type' />
+        <field-sort-custom-order field='State (Sheet12)' />
+        <field-sort-custom-order field='electricity_production_gj' />
+        <field-sort-custom-order field='electricity_production_mwh' />
+        <field-sort-custom-order field='production_mwh_std' />
+        <field-sort-custom-order field='scope1_tco2e' />
+        <field-sort-custom-order field='scope2_tco2e' />
+        <field-sort-custom-order field='total_emissions_tco2e' />
+        <field-sort-custom-order field='emission_intensity_t_per_mwh' />
+        <field-sort-custom-order field='grid_connected' />
+        <field-sort-custom-order field='grid' />
+        <field-sort-custom-order field='primary_fuel' />
+        <field-sort-custom-order field='important_notes' />
+        <field-sort-custom-order field='facility_name_norm (Sheet12)' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ABS_State_Data' id='Sheet1_194136B359B748E78855B0DB33C7E815'>
+            <properties context=''>
+              <relation connection='excel-direct.09z2j3j0268qpb1g5u4xv0rtpz4y' name='Sheet13' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:R81:no:A1:R81:0' header='yes' outcome='6'>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='integer' name='Building approvals - year ended 30 June - Private sector houses (no.)' ordinal='2' />
+                  <column datatype='integer' name='Building approvals - year ended 30 June - Total private sector dwelling units (no.)' ordinal='3' />
+                  <column datatype='integer' name='Building approvals - year ended 30 June - Total dwelling units (no.)' ordinal='4' />
+                  <column datatype='integer' name='Building approvals - year ended 30 June - Value of private sector houses ($m)' ordinal='5' />
+                  <column datatype='integer' name='Building approvals - year ended 30 June - Total value of private sector dwelling units ($m)' ordinal='6' />
+                  <column datatype='integer' name='Building approvals - year ended 30 June - Value of residential building ($m)' ordinal='7' />
+                  <column datatype='integer' name='Building approvals - year ended 30 June - Value of non-residential building ($m)' ordinal='8' />
+                  <column datatype='integer' name='Building approvals - year ended 30 June - Value of total building ($m)' ordinal='9' />
+                  <column datatype='integer' name='Residential property transfers - year ended 30 June - Number of established house transfers (no.)' ordinal='10' />
+                  <column datatype='integer' name='Residential property transfers - year ended 30 June - Median price of established house transfers ($)' ordinal='11' />
+                  <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Houses - additions (no.)' ordinal='12' />
+                  <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Houses - total (no.)' ordinal='13' />
+                  <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Townhouses - total (no.)' ordinal='14' />
+                  <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Apartments - total (no.)' ordinal='15' />
+                  <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Total dwelling additions (no.)' ordinal='16' />
+                  <column datatype='integer' name='Estimated dwelling stock - as at June quarter - Total dwellings (no.)' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='NGER_Data' id='Sheet1_BA033FA9DB01478FAFAD38883AE84ACE'>
+            <properties context=''>
+              <relation connection='excel-direct.0gjqmtj1mbwm590zyigyd040i1ml' name='Sheet12' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:Q5943:no:A1:Q5943:0' header='yes' outcome='6'>
+                  <column datatype='string' name='source_dataset_id' ordinal='0' />
+                  <column datatype='string' name='reporting_entity' ordinal='1' />
+                  <column datatype='string' name='facility_name' ordinal='2' />
+                  <column datatype='string' name='type' ordinal='3' />
+                  <column datatype='string' name='State' ordinal='4' />
+                  <column datatype='integer' name='electricity_production_gj' ordinal='5' />
+                  <column datatype='integer' name='electricity_production_mwh' ordinal='6' />
+                  <column datatype='integer' name='production_mwh_std' ordinal='7' />
+                  <column datatype='integer' name='scope1_tco2e' ordinal='8' />
+                  <column datatype='integer' name='scope2_tco2e' ordinal='9' />
+                  <column datatype='integer' name='total_emissions_tco2e' ordinal='10' />
+                  <column datatype='real' name='emission_intensity_t_per_mwh' ordinal='11' />
+                  <column datatype='string' name='grid_connected' ordinal='12' />
+                  <column datatype='string' name='grid' ordinal='13' />
+                  <column datatype='string' name='primary_fuel' ordinal='14' />
+                  <column datatype='string' name='important_notes' ordinal='15' />
+                  <column datatype='string' name='facility_name_norm' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='CER_Data_2' id='Sheet1_E24CBB89246B4CC282831869B658D0C2'>
+            <properties context=''>
+              <relation connection='excel-direct.1sbhc4u0xxr9du10gvjm10xxeq2z' name='Sheet11' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:G98:no:A1:G98:1' lost='0' outcome='1' processed='130'>
+                  <column datatype='string' name='Project Name' ordinal='0' />
+                  <column datatype='string' name='State' ordinal='1' />
+                  <column datatype='real' name='Mw Capacity' ordinal='2' />
+                  <column datatype='string' name='Fuel Source' ordinal='3' />
+                  <column datatype='date' name='Committed Date' ordinal='4' />
+                  <column datatype='string' name='status' ordinal='5' />
+                  <column datatype='string' name='facility_name_norm' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='CER_Data_1' id='Sheet1_F426F648596A46E6B8CCE6F7BB27DBD6'>
+            <properties context=''>
+              <relation connection='excel-direct.17brgzq0sv15b010w5e761gyp7mp' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:I355:no:A1:I355:1' lost='0' outcome='1' processed='1416'>
+                  <column datatype='string' name='Accreditation code' ordinal='0' />
+                  <column datatype='string' name='Power station name' ordinal='1' />
+                  <column datatype='string' name='State' ordinal='2' />
+                  <column datatype='integer' name='Postcode' ordinal='3' />
+                  <column datatype='real' name='Mw Capacity' ordinal='4' />
+                  <column datatype='string' name='Fuel Source' ordinal='5' />
+                  <column datatype='date' name='Accreditation start date' ordinal='6' />
+                  <column datatype='date' name='Approval date' ordinal='7' />
+                  <column datatype='string' name='facility_name_norm' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[State (Sheet12)]' />
+              <expression op='[State (Sheet13)]' />
+            </expression>
+            <first-end-point object-id='Sheet1_BA033FA9DB01478FAFAD38883AE84ACE' />
+            <second-end-point object-id='Sheet1_194136B359B748E78855B0DB33C7E815' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[facility_name_norm]' />
+              <expression op='[facility_name_norm (Sheet12)]' />
+            </expression>
+            <first-end-point object-id='Sheet1_F426F648596A46E6B8CCE6F7BB27DBD6' />
+            <second-end-point object-id='Sheet1_BA033FA9DB01478FAFAD38883AE84ACE' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[facility_name_norm]' />
+              <expression op='[facility_name_norm (Sheet11)]' />
+            </expression>
+            <first-end-point object-id='Sheet1_F426F648596A46E6B8CCE6F7BB27DBD6' />
+            <second-end-point object-id='Sheet1_E24CBB89246B4CC282831869B658D0C2' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_60D7722308454410A75C77BAFC7CEC80]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Primary Fuel analysis' type='sheet' worksheet='Primary Fuel and the total Electricity Production' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Primary Fuel analysis' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Primary Fuel and the Total C02 Emissions'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1+ (Multiple Connections)' name='federated.0f2d9b81cegfsh1d47lb91nq3bxk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0f2d9b81cegfsh1d47lb91nq3bxk'>
+            <column-instance column='[primary_fuel]' derivation='None' name='[none:primary_fuel:nk]' pivot='key' type='nominal' />
+            <column caption='Primary Fuel' datatype='string' name='[primary_fuel]' role='dimension' type='nominal' />
+            <column-instance column='[total_emissions_tco2e]' derivation='Sum' name='[sum:total_emissions_tco2e:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Emissions Tco2E' datatype='integer' name='[total_emissions_tco2e]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]' filter-group='3'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:primary_fuel:nk]' />
+              <groupfilter function='member' level='[none:primary_fuel:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]' />
+              <wedge-size column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:total_emissions_tco2e:qk]' />
+              <size column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:total_emissions_tco2e:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7C7A15CC-476C-4F77-9BE8-5F0F10939A31}' />
+    </worksheet>
+    <worksheet name='Primary Fuel and the total Electricity Production'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1+ (Multiple Connections)' name='federated.0f2d9b81cegfsh1d47lb91nq3bxk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0f2d9b81cegfsh1d47lb91nq3bxk'>
+            <column caption='Electricity Production Mwh' datatype='integer' name='[electricity_production_mwh]' role='measure' type='quantitative' />
+            <column-instance column='[primary_fuel]' derivation='None' name='[none:primary_fuel:nk]' pivot='key' type='nominal' />
+            <column caption='Primary Fuel' datatype='string' name='[primary_fuel]' role='dimension' type='nominal' />
+            <column-instance column='[electricity_production_mwh]' derivation='Sum' name='[sum:electricity_production_mwh:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]' filter-group='3'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:primary_fuel:nk]' />
+              <groupfilter function='member' level='[none:primary_fuel:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Bagasse&quot;</bucket>
+              <bucket>&quot;Battery&quot;</bucket>
+              <bucket>&quot;Biofuel&quot;</bucket>
+              <bucket>&quot;Biogas&quot;</bucket>
+              <bucket>&quot;Black Coal&quot;</bucket>
+              <bucket>&quot;Brown Coal&quot;</bucket>
+              <bucket>&quot;Coal Seam Methane&quot;</bucket>
+              <bucket>&quot;Diesel&quot;</bucket>
+              <bucket>&quot;Gas&quot;</bucket>
+              <bucket>&quot;Gas/Diesel&quot;</bucket>
+              <bucket>&quot;Hydro&quot;</bucket>
+              <bucket>&quot;Kerosene&quot;</bucket>
+              <bucket>&quot;Landfill Gas&quot;</bucket>
+              <bucket>&quot;Liquid Fuel&quot;</bucket>
+              <bucket>&quot;Macadamia Nut Shells&quot;</bucket>
+              <bucket>&quot;Multiple sources&quot;</bucket>
+              <bucket>&quot;Sludge Biogas&quot;</bucket>
+              <bucket>&quot;Solar&quot;</bucket>
+              <bucket>&quot;Waste Coal Mine Gas&quot;</bucket>
+              <bucket>&quot;Wind&quot;</bucket>
+              <bucket>&quot;Wind/Diesel&quot;</bucket>
+              <bucket>&quot;Wood&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]' />
+              <wedge-size column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:electricity_production_mwh:qk]' />
+              <size column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:electricity_production_mwh:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9EC0EAE4-1C38-4B55-9B11-907CD4B5CDD0}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1+ (Multiple Connections)' name='federated.0f2d9b81cegfsh1d47lb91nq3bxk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0f2d9b81cegfsh1d47lb91nq3bxk'>
+            <column caption='Financial Year' datatype='string' datatype-customized='true' name='[Calculation_1935703431665868801]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CASE [source_dataset_id]&#13;&#10;    WHEN &quot;ID0074&quot; THEN &quot;2013-2014&quot;&#13;&#10;    WHEN &quot;ID0075&quot; THEN &quot;2014-2015&quot;&#13;&#10;    WHEN &quot;ID0076&quot; THEN &quot;2015-2016&quot;&#13;&#10;    WHEN &quot;ID0077&quot; THEN &quot;2016-2017&quot;&#13;&#10;    WHEN &quot;ID0078&quot; THEN &quot;2017-2018&quot;&#13;&#10;    WHEN &quot;ID0079&quot; THEN &quot;2018-2019&quot;&#13;&#10;    WHEN &quot;ID0080&quot; THEN &quot;2019-2020&quot;&#13;&#10;    WHEN &quot;ID0081&quot; THEN &quot;2020-2021&quot;&#13;&#10;    WHEN &quot;ID0082&quot; THEN &quot;2021-2022&quot;&#13;&#10;    WHEN &quot;ID0083&quot; THEN &quot;2022-2023&quot;&#13;&#10;    WHEN &quot;ID0243&quot; THEN &quot;2023-2024&quot;&#13;&#10;    ELSE &quot;Unknown&quot;&#13;&#10;END' />
+            </column>
+            <column caption='FY Start' datatype='date' datatype-customized='true' name='[Calculation_1935703431670067202]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;yyyy&quot;, LEFT([Calculation_1935703431665868801],4) )) ' />
+            </column>
+            <column-instance column='[emission_intensity_t_per_mwh]' derivation='Avg' name='[avg:emission_intensity_t_per_mwh:qk]' pivot='key' type='quantitative' />
+            <column caption='Emission Intensity T Per Mwh' datatype='real' name='[emission_intensity_t_per_mwh]' role='measure' type='quantitative' />
+            <column-instance column='[primary_fuel]' derivation='None' name='[none:primary_fuel:nk]' pivot='key' type='nominal' />
+            <column caption='Primary Fuel' datatype='string' name='[primary_fuel]' role='dimension' type='nominal' />
+            <column caption='Source Dataset Id' datatype='string' name='[source_dataset_id]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1935703431670067202]' derivation='Year-Trunc' name='[tyr:Calculation_1935703431670067202:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:primary_fuel:nk]' />
+              <groupfilter function='member' level='[none:primary_fuel:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[tyr:Calculation_1935703431670067202:qk]</rows>
+        <cols>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[avg:emission_intensity_t_per_mwh:qk]</cols>
+      </table>
+      <simple-id uuid='{0A205633-EE1B-4D20-B921-83B3C77AE87E}' />
+    </worksheet>
+    <worksheet name='Yearly Electricity Production vs Total CO2 Emissions'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1+ (Multiple Connections)' name='federated.0f2d9b81cegfsh1d47lb91nq3bxk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0f2d9b81cegfsh1d47lb91nq3bxk'>
+            <column caption='Financial Year' datatype='string' datatype-customized='true' name='[Calculation_1935703431665868801]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='CASE [source_dataset_id]&#13;&#10;    WHEN &quot;ID0074&quot; THEN &quot;2013-2014&quot;&#13;&#10;    WHEN &quot;ID0075&quot; THEN &quot;2014-2015&quot;&#13;&#10;    WHEN &quot;ID0076&quot; THEN &quot;2015-2016&quot;&#13;&#10;    WHEN &quot;ID0077&quot; THEN &quot;2016-2017&quot;&#13;&#10;    WHEN &quot;ID0078&quot; THEN &quot;2017-2018&quot;&#13;&#10;    WHEN &quot;ID0079&quot; THEN &quot;2018-2019&quot;&#13;&#10;    WHEN &quot;ID0080&quot; THEN &quot;2019-2020&quot;&#13;&#10;    WHEN &quot;ID0081&quot; THEN &quot;2020-2021&quot;&#13;&#10;    WHEN &quot;ID0082&quot; THEN &quot;2021-2022&quot;&#13;&#10;    WHEN &quot;ID0083&quot; THEN &quot;2022-2023&quot;&#13;&#10;    WHEN &quot;ID0243&quot; THEN &quot;2023-2024&quot;&#13;&#10;    ELSE &quot;Unknown&quot;&#13;&#10;END' />
+            </column>
+            <column caption='FY Start' datatype='date' datatype-customized='true' name='[Calculation_1935703431670067202]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;yyyy&quot;, LEFT([Calculation_1935703431665868801],4) )) ' />
+            </column>
+            <column datatype='string' name='[State (Sheet12)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Electricity Production Mwh' datatype='integer' name='[electricity_production_mwh]' role='measure' type='quantitative' />
+            <column-instance column='[State (Sheet12)]' derivation='None' name='[none:State (Sheet12):nk]' pivot='key' type='nominal' />
+            <column-instance column='[primary_fuel]' derivation='None' name='[none:primary_fuel:nk]' pivot='key' type='nominal' />
+            <column caption='Primary Fuel' datatype='string' name='[primary_fuel]' role='dimension' type='nominal' />
+            <column caption='Source Dataset Id' datatype='string' name='[source_dataset_id]' role='dimension' type='nominal' />
+            <column-instance column='[electricity_production_mwh]' derivation='Sum' name='[sum:electricity_production_mwh:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_emissions_tco2e]' derivation='Sum' name='[sum:total_emissions_tco2e:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Emissions Tco2E' datatype='integer' name='[total_emissions_tco2e]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1935703431670067202]' derivation='Year' name='[yr:Calculation_1935703431670067202:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[Action (Primary Fuel)]'>
+            <groupfilter function='level-members' level='[primary_fuel]' user:ui-action-filter='[Action1_60D7722308454410A75C77BAFC7CEC80]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:State (Sheet12):nk]'>
+            <groupfilter function='member' level='[none:State (Sheet12):nk]' member='&quot;NSW&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]' filter-group='3'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:primary_fuel:nk]' />
+              <groupfilter function='member' level='[none:primary_fuel:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:total_emissions_tco2e:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:State (Sheet12):nk]</column>
+            <column>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:total_emissions_tco2e:qk]</column>
+            <column>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[Action (Primary Fuel)]</column>
+            <column>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:total_emissions_tco2e:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:State (Sheet12):nk]' value='State'>
+              <formatted-text>
+                <run>State</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:electricity_production_mwh:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:total_emissions_tco2e:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:electricity_production_mwh:qk] + [federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:total_emissions_tco2e:qk])</rows>
+        <cols>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[yr:Calculation_1935703431670067202:ok]</cols>
+      </table>
+      <simple-id uuid='{B35B927D-A8BE-4FAF-A814-F605426B706F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Primary Fuel analysis'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Sheet1+ (Multiple Connections)' name='federated.0f2d9b81cegfsh1d47lb91nq3bxk' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0f2d9b81cegfsh1d47lb91nq3bxk'>
+        <column datatype='string' name='[State (Sheet12)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column-instance column='[State (Sheet12)]' derivation='None' name='[none:State (Sheet12):nk]' pivot='key' type='nominal' />
+        <column-instance column='[primary_fuel]' derivation='None' name='[none:primary_fuel:nk]' pivot='key' type='nominal' />
+        <column caption='Primary Fuel' datatype='string' name='[primary_fuel]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98806' id='12' param='horz' type-v2='layout-flow' w='99286' x='357' y='597'>
+            <zone h='98806' id='5' param='horz' type-v2='layout-flow' w='99286' x='357' y='597'>
+              <zone h='98806' id='3' type-v2='layout-basic' w='99286' x='357' y='597'>
+                <zone h='49403' id='1' name='Yearly Electricity Production vs Total CO2 Emissions' w='99286' x='357' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49403' id='7' name='Primary Fuel and the total Electricity Production' w='49643' x='357' y='597'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49403' id='10' name='Primary Fuel and the Total C02 Emissions' w='49643' x='50000' y='597'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='5279' id='6' mode='dropdown' name='Yearly Electricity Production vs Total CO2 Emissions' param='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:State (Sheet12):nk]' type-v2='filter' w='7487' x='35160' y='50075' />
+        <zone h='51885' id='13' name='Primary Fuel and the Total C02 Emissions' param='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]' type-v2='filter' values='database' w='7487' x='91399' y='1056' />
+      </zones>
+      <simple-id uuid='{FEF552CE-AC4F-471A-9350-CEADBD7EDC18}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='35'>
+    <window class='worksheet' name='Yearly Electricity Production vs Total CO2 Emissions'>
+      <cards>
+        <edge name='left'>
+          <strip size='240'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='48'>
+            <card type='columns' />
+          </strip>
+          <strip size='48'>
+            <card type='rows' />
+          </strip>
+          <strip size='48'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='240'>
+            <card mode='dropdown' param='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:State (Sheet12):nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:Calculation_1935703431665868801:nk]</field>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:State (Sheet12):nk]</field>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:Year:qk]</field>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]</field>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[tyr:Calculation_1935703431670067202:qk]</field>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[yr:Calculation_1935703431665868801:ok]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{D74FBD80-6901-4CA4-B3A8-E25C1069B1E3}' />
+    </window>
+    <window class='worksheet' name='Primary Fuel and the total Electricity Production' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='240'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='48'>
+            <card type='columns' />
+          </strip>
+          <strip size='48'>
+            <card type='rows' />
+          </strip>
+          <strip size='48'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='240'>
+            <card pane-specification-id='0' param='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[sum:electricity_production_mwh:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{A4A6E330-D3DC-4FBD-954D-C218F7C438AD}' />
+    </window>
+    <window class='worksheet' name='Primary Fuel and the Total C02 Emissions' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='240'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='48'>
+            <card type='columns' />
+          </strip>
+          <strip size='48'>
+            <card type='rows' />
+          </strip>
+          <strip size='45'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='240'>
+            <card param='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D2308401-51F4-42A8-A12C-F37FDD953170}' />
+    </window>
+    <window class='dashboard' name='Primary Fuel analysis'>
+      <viewpoints>
+        <viewpoint name='Primary Fuel and the Total C02 Emissions'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Primary Fuel and the total Electricity Production'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Yearly Electricity Production vs Total CO2 Emissions'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview selected='Desktop' />
+      <simple-id uuid='{28DBC4D7-A536-41AF-BEAC-359312D03CA5}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:Calculation_1935703431665868801:nk]</field>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:Fuel Source (Sheet11):nk]</field>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[none:primary_fuel:nk]</field>
+            <field>[federated.0f2d9b81cegfsh1d47lb91nq3bxk].[tyr:Calculation_1935703431670067202:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AA3F67D6-48D0-4EC1-91E1-DFB705108B65}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Primary Fuel analysis' width='192'>
+      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
+      sdlsd/x6/n8d9idBt+E3GwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Primary Fuel and the Total C02 Emissions' width='192'>
+      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
+      sGtc3+z/AQOe6J2Hu9qbAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Primary Fuel and the total Electricity Production' width='192'>
+      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
+      zREAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Yearly Electricity Production vs Total CO2 Emissions' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
